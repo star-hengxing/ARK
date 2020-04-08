@@ -1,6 +1,6 @@
 # 方舟资料查询
 
-[v1.0 下载](https://github.com/star-hengxing/ARK-assistant/releases)
+[v1.0.0 下载](https://github.com/star-hengxing/ARK-assistant/releases)
 
 ### 功能
 
