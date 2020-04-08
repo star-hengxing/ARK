@@ -1,7 +1,7 @@
 # 方舟资料查询
 
 [v1.0.2 下载](https://github.com/star-hengxing/ARK-assistant/releases)
-[![GitHub license](https://img.shields.io/github/license/star-hengxing/ARK-assistant)](https://github.com/star-hengxing/ARK-assistant/blob/master/LICENSE)
+
 ### 功能
 
     驯服计算器(待做)
