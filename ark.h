@@ -23,6 +23,7 @@ void show(p_egg head);
 
 void SearchDis(p_egg head);
 //head是存放数据链表的头指针
+//模糊搜索
 
 p_egg LoadEggData(p_egg end, string _type);
 //导入数据
