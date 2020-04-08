@@ -4,6 +4,7 @@
 #pragma warning(disable:4996)
 
 #include<string>
+//string是一个类
 
 using namespace std;
 
@@ -15,8 +16,10 @@ typedef struct EGG
 }egg, * p_egg;
 
 p_egg start();
+//导入数据
 
 void show(p_egg head);
+//打印所有恐龙数据
 
 void SearchDis(p_egg head);
 //head是存放数据链表的头指针
