@@ -17,13 +17,16 @@ inline void CheckMistake(p_egg node)
 
 inline string ReplaceTypeName(string str)
 {
+    //已经得知我们要删的是.txt
     int len = str.size() - 4;
+    //erase从字符串第len位开始删除后4个字符
     str.erase(len,4);
     return str;
 }
 
 void SearchDis(p_egg head)
 {
+    //数据少，不加查找算法
     string _name;
     p_egg temp = head->next;
     cout << "恐龙名:";
