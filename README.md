@@ -1,6 +1,6 @@
 # 方舟资料查询
 
-[v1.0.2 下载](https://github.com/star-hengxing/ARK-assistant/releases)
+[![GitHub release](https://img.shields.io/badge/release-v1.0.2-yellow)](https://github.com/star-hengxing/ARK-assistant/releases) [![LICENSE](https://img.shields.io/github/license/star-hengxing/ARK-assistant)](https://github.com/star-hengxing/ARK-assistant/blob/master/LICENSE)
 
 ### 功能
 
