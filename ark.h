@@ -29,6 +29,12 @@ p_egg LoadEggData(p_egg end, string _type);
 //导入数据
 //_type区分函数里的type
 
+void LoadFeedData();
+//直接打印饲料配方
+
+void LoadConsumablesData();
+//直接打印消耗品配方
+
 inline void CheckMistake(p_egg node);//检查分配内存的错误
 
 inline string ReplaceTypeName(string str);//在导入恐龙类型时把.txt去掉

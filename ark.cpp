@@ -69,7 +69,7 @@ p_egg start()
     CheckMistake(head);
     end = head;//尾指针是一个搬运工
 
-    //将文件数据导入链表
+    //将蛋类型导入链表
     temp = LoadEggData(end, "data/超小型蛋.txt");
     temp = LoadEggData(temp, "data/小型蛋.txt");        //赋值号优先级较低
     temp = LoadEggData(temp, "data/中型蛋.txt");        //可以无限套娃，但为了可读性，还是别了
@@ -78,6 +78,9 @@ p_egg start()
     temp = LoadEggData(temp, "data/特型蛋.txt");
     end = temp;//可读性
     end->next = NULL;
+    //将饲料配方导入十字链表
+
+    
     //初始化完成
     return head;
 }
@@ -103,6 +106,46 @@ p_egg LoadEggData(p_egg end, string _type)
     }
     load.close();
     return end;
+}
+
+void LoadFeedData()
+{
+    string str;
+    ifstream load;
+    load.open("data/饲料.txt", ios::in);//以读入模式打开
+    if (!load)
+    {
+        cout << "打开文件失败" << endl;
+        exit(4);
+    }
+    system("cls");
+    while (load.peek() != EOF)
+    {
+        getline(load, str);//遇到\n停止读取
+        cout << str<<endl;
+    }
+    printf("\n");
+    system("pause");
+}
+
+void LoadConsumablesData()
+{
+    string str;
+    ifstream load;
+    load.open("data/消耗品.txt", ios::in);//以读入模式打开
+    if (!load)
+    {
+        cout << "打开文件失败" << endl;
+        exit(4);
+    }
+    system("cls");
+    while (load.peek() != EOF)
+    {
+        getline(load, str);//遇到\n停止读取
+        cout << str<<endl;
+    }
+    printf("\n");
+    system("pause");
 }
 
 void show(p_egg head)
